@@ -114,7 +114,7 @@ const Page = () => {
             </Heading>
             <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/davivers" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
