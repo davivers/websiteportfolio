@@ -20,7 +20,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/microchip${useColorModeValue('-light', '-dark')}.png`
+  const footPrintImg = `/images/microchip${useColorModeValue('-light', ' ')}.png`
 
   return (
     <Link href="/">
