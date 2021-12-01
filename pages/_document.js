@@ -6,7 +6,7 @@ export default class Document extends NextDocument {
     render () {
         return (
         <Html lang="en">
-            <Head></Head>
+            <Head> <link rel="shortcut icon" href="/public/images/catfav.png" /></Head>
             <body>
                 <ColorModeScript initialColorMode={theme.config.initialColorMode}/>
             <Main>
