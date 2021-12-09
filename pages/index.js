@@ -37,7 +37,7 @@ const Page = () => {
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-              Hello, I&apos;m a Cybersecurity intern and Coding student based in Brasil!
+              Hello, I&apos;m a Software Engineering student based in Brasil!
             </Box>
 
             <Box display={{md:'flex'}}>
@@ -46,7 +46,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         David Lima
                         </Heading>
-                    <p>White Hacker ( Photographer / Coding Student )</p>
+                    <p>Software Engineer(Student) ( Photographer / Cybersecurity Student )</p>
                 </Box>
          
             
@@ -75,7 +75,7 @@ const Page = () => {
           Work
         </Heading>
        <Paragraph>
-           David is a Cybersecurity student who has a passion for building digital services and analyse vulnerabilites. He's heading towards a Cyber Engineering graduation to further seek his passions. Check it out his projects at{' '}
+           David is a Software Engineering student who has a passion for building digital services and analyse vulnerabilites. He's heading towards a Cyber Engineering graduation to further seek his passions. Check it out his projects at{' '}
         <NextLink href="/">
             <Link href="http://github.com/davivers" target="_blank">Github</Link> 
             
@@ -125,19 +125,7 @@ const Page = () => {
               </Button>
             </Link>
           </ListItem>
-          
-          <ListItem>
-            <Link href="https://twitter.com/galadriel_lover" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
-              >
-                @galadriel_lover
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
+            <ListItem>
             <Link href="https://instagram.com/davi_serasa" target="_blank">
               <Button
                 variant="ghost"
