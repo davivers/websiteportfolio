@@ -37,7 +37,7 @@ const Page = () => {
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-              Hello, I&apos;m a Software Engineering student based in Brasil!
+              Hello, I&apos;m a Cyber Security student based in Brasil!
             </Box>
 
             <Box display={{md:'flex'}}>
@@ -46,7 +46,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         David Lima
                         </Heading>
-                    <p>Software Engineer(Student) ( Photographer / Cybersecurity Student )</p>
+                    <p> CyberSecurity Student ( Photographer )</p>
                 </Box>
          
             
@@ -126,13 +126,13 @@ const Page = () => {
             </Link>
           </ListItem>
             <ListItem>
-            <Link href="https://instagram.com/davi_serasa" target="_blank">
+            <Link href="https://instagram.com/meg_1d0" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                @davi_serasa
+                @meg_1d0
               </Button>
             </Link>
           </ListItem>
