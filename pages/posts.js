@@ -18,11 +18,6 @@ const Posts = () => (
  <Section delay={0.1}>
        <SimpleGrid columns={[1,2,2]} gap={6}>
             <GridItem
-            title="Minha experiência de aprendizado na plataforma DIO"
-            thumbnail={thumbone}
-            href="/">
-            </GridItem>
-            <GridItem
             title="Sheltered Instructions"
             thumbnail={thumbpaul}
             href="https://rhspatriotvoice.org/1975/opinion/sheltered-instruction/"
