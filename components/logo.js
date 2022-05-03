@@ -11,6 +11,7 @@ const LogoBox = styled.span`
   height: 30px;
   line-height: 20px;
   padding: 10px;
+  margin-top: 5px;
   img {
     transition: 200ms ease;
   }
@@ -20,20 +21,20 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/microchip${useColorModeValue('', '')}.png`
+  const footPrintImg = `/images/catfav${useColorModeValue('', '')}.png`
 
   return (
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={footPrintImg} width={22} height={22} alt="logo" />
+          <Image src={footPrintImg} width={30} height={30} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
-            ml={3}
+            ml={5}
           >
-            David Lima
+            David Apolinario
           </Text>
         </LogoBox>
       </a>
