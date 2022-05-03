@@ -15,7 +15,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-import ThemeToggleButton from './layouts/theme-toggle-button'
+import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
@@ -73,10 +73,10 @@ const Navbar = props => {
         >
           
           <LinkItem href="/posts" path={path}>
-            Posts
+            Projects
           </LinkItem>
           <LinkItem
-            _target="_blank"
+            target="_blank"
             href="https://github.com/davivers"
             path={path}
             display="inline-flex"
@@ -110,6 +110,7 @@ const Navbar = props => {
                                 <NextLink href="/posts" passHref>
                                     <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink>
+                                
               </MenuList>
             </Menu>
           </Box>

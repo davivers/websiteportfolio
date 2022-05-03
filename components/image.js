@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 const myLoader = ({ src, width, quality }) => {
   return `https://mega.nz/file/P4ZnhKiB#HzoJ4UmfbautPlJi5RI7CMCKpN3F3Y-EYlgzs_YqyfM${src}?w=${width}&q=${quality || 75}`
+  
 }
 
 const MyImage = (props) => {

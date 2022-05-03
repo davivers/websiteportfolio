@@ -5,49 +5,33 @@ import {
   Heading,
   Box,
   Image,
-  SimpleGrid,
   Button,
   List,
   ListItem,
-  Icon,
-  useColorModeValue
+  Icon
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/layouts/paragraph'
+import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layouts/article'
-import Section from '../components/layouts/section'
-import { GridItem } from '../components/grid-item'
+import Section from '../components/section'
 import {
-  IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoDiscord
+  IoLogoLinkedin
 } from 'react-icons/io5'
-import Footer from '../components/footer'
 
 const Page = () => {
     return (
-        <Container>
-             <Box
-        borderRadius="lg"
-        mt={3}
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      >
-              Hello, I&apos;m a Cyber Security student based in Brasil!
-            </Box>
-
-            <Box display={{md:'flex'}}>
+        <Container mt={250}>
+           
+            <Box mt={20}display={{md:'flex'}}>
                 
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
-                        David Lima
+                        David Apolinario
                         </Heading>
-                    <p> CyberSecurity Student ( Photographer )</p>
+                    <p> CyberSecurity Student / FullStack Developer</p>
                 </Box>
+
          
             
          <Box
@@ -60,7 +44,7 @@ const Page = () => {
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            maxWidth="100px"
+            maxWidth="130px"
             display="inline-block"
             borderRadius="full"
             src="/images/david.jpg"
@@ -75,9 +59,8 @@ const Page = () => {
           Work
         </Heading>
        <Paragraph>
-           David is a Software Engineering student who has a passion for building digital services and analyse vulnerabilites. He's heading towards a Cyber Engineering graduation to further seek his passions. Check it out his projects at{' '}
-        <NextLink href="/">
-            <Link href="http://github.com/davivers" target="_blank">Github</Link> 
+           David is a FullStack Developer/ CyberSecurity Student who has a passion for building Web services and Offensive Security. He's now enrolled in an Information Systems degree looking for his first experience in the I.T Market. Check out his projects at:<NextLink href="/">
+            <Link href="http://github.com/davivers" target="_blank" passHref>Github</Link> 
             
         </NextLink>
        </Paragraph>
@@ -100,22 +83,28 @@ const Page = () => {
                 </BioYear>
                 Completed High School at Revere High School.
             </BioSection>
+            <BioSection>
+                <BioYear>
+                    2022
+                </BioYear>
+                Enrolled in Information Systems Bachelor's Degree at Universidade Metropolitana de Fortaleza
+            </BioSection>
         </Section>
         <Section delay={0.3}>
             <Heading as="h3" variant="section-title">
             I ♥
             </Heading>
             <Paragraph>
-                Music,{' '},
-                <Link href="https://vsco.co/davivers/gallery" target="_blank">Photography</Link>
-                , Coding, Playing Games
+                Music,
+                <Link href="https://vsco.co/davivers/gallery" target="_blank" passHref>Photography</Link>
+                ,Coding,Playing Games
             </Paragraph>
             <Heading as="h3" variant="section-title">
                 On the web
             </Heading>
             <List>
           <ListItem>
-            <Link href="https://github.com/davivers" target="_blank">
+            <Link href="https://github.com/davivers" target="_blank" passHref>
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -126,7 +115,7 @@ const Page = () => {
             </Link>
           </ListItem>
             <ListItem>
-            <Link href="https://instagram.com/meg_1d0" target="_blank">
+            <Link href="https://instagram.com/meg_1d0" target="_blank" passHref>
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -135,8 +124,17 @@ const Page = () => {
                 @meg_1d0
               </Button>
             </Link>
+          </ListItem><ListItem>
+            <Link href="https://www.linkedin.com/in/david-a-42a652212/" target="_blank" passHref>
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+                @david-a-42a652212
+              </Button>
+            </Link>
           </ListItem>
-          
         </List>
         <Box align="center" opacity={0.4} fontSize="sm">
       &copy; {new Date().getFullYear()} David Lima. All Rights Reserved.
