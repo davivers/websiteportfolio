@@ -67,14 +67,11 @@ const Posts = () => (
             href="https://github.com/davivers/Login-Form-with-ChakraUI"
             target="_blank">
             </GridItem>
-            </GridItem>
             <GridItem
             title="Server Side Form Validation"
             thumbnail={thumbServer}
             href="https://github.com/davivers/Server-side-Form-Validation"
             target="_blank">
-            </GridItem>
-
             </GridItem>
          </SimpleGrid>
      </Section>
