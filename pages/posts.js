@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import thumbpaul from '../public/images/thumbpaul.png'
-import thumbconsult from '../public/images/thumbconsult.png'
+import thumbConsult from '../public/images/thumbConsult.png'
 import thumbTCP from '../public/images/thumbTCP.png'
 import thumbUser from '../public/images/thumbUser.png'
 import thumbServer from '../public/images/thumbServer.png'
@@ -31,7 +31,7 @@ const Posts = () => (
             </GridItem>
             <GridItem
             title="Consultar CEP"
-            thumbnail={thumbconsult}
+            thumbnail={thumbConsult}
             href="https://github.com/davivers/Consultar-Cep"
             target="_blank">
 
