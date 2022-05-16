@@ -72,9 +72,7 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           
-          <LinkItem href="/posts" path={path}>
-            Projects
-          </LinkItem>
+          
           <LinkItem
             target="_blank"
             href="https://github.com/davivers"
