@@ -114,7 +114,7 @@ const Navbar = props => {
                                     <MenuItem as={Link}> About</MenuItem>
                                 </NextLink>
                                 <NextLink  href="https://github.com/davivers" passHref>
-                                 <MenuItem as={Link} href="/" target="_blank">Works</MenuItem>
+                                 <MenuItem as={Link} href="/" target="_blank">Projects</MenuItem>
                                 </NextLink>
                                 <NextLink href="./curriculum.pdf" passHref>
                                     <MenuItem as={Link}>Curriculo</MenuItem>
