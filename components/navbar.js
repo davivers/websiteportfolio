@@ -71,6 +71,29 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+           <LinkItem
+            target="_blank"
+            href="https://github.com/davivers"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Source
+          </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://davivers.github.io/contact-form/"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            Contact Me
+          </LinkItem>
        
         </Stack>
 
