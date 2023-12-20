@@ -83,17 +83,6 @@ const Navbar = props => {
             <IoLogoGithub />
             Source
           </LinkItem>
-          <LinkItem
-            target="_blank"
-            href="https://davivers.github.io/contact-form/"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            Contact Me
-          </LinkItem>
        
         </Stack>
 
